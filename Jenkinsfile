@@ -7,4 +7,7 @@ pipeline {
       }
     }
   }
+  environment {
+    DEV = '1'
+  }
 }
